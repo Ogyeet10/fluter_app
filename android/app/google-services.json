@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "358700084768",
+    "project_id": "ogyeetgamedev",
+    "storage_bucket": "ogyeetgamedev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358700084768:android:7eedd48d3e6bbff0a35645",
+        "android_client_info": {
+          "package_name": "com.ogyeetgamedev.flutterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358700084768-odc8p8amdlev7pvfqv989eqav6huuae2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbt_X2r3EfUhnrgqsps8gtZdQ4KeD7UiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358700084768-odc8p8amdlev7pvfqv989eqav6huuae2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
