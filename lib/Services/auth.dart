@@ -1,7 +1,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:fluter_app/Models/MyUser.dart';
 
 class authservice {
   final FirebaseAuth _auth = FirebaseAuth.instance;
+
+  // create user obj baced on firebace user
+  MyUser? _userFromFirebace(User user) {
+    return user != null ? MyUser(uid: user.uid) : null;
+  }
 
 //sign in anon
   Future signInAnon() async {
