@@ -12,9 +12,9 @@ class authservice {
 //sign in anon
   Future signInAnon() async {
     try {
-      UserCredential userCredential = await _auth.signInAnonymously();
-      User user = userCredential.user!;
-      return user;
+      UserCredential result = await _auth.signInAnonymously();
+      User? user = result.user;
+      return _userFromFirebace(user!);
     } catch (e) {
       print(e.toString());
       return null;
